@@ -19,7 +19,6 @@ void print_number(int n)
 		n = n / -10;
 	}
 
-
 	else
 	{
 		ld = (char)((n % 10) + '0');
@@ -41,7 +40,6 @@ void print_number(int n)
 		r = r / 10;
 		ct--;
 	}
-	
 	while (ct != 0)
 	{
 		_putchar('0');
