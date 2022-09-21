@@ -6,10 +6,10 @@
  * If the length of the source string is less than the maximum byte number,
  * the remainder of the destination string is filled with null bytes.
  * Works identically to the standard library function 'strncpy'.
- * @dest: buffer storing the string copy
- * @src: the source string
- * @n: max number of byte copied
- * Return returns
+ *@dest: buffer storing the string copy
+ *@src: the source string
+ *@n: max number of byte copied
+ *Return returns
  */
 
 char *_strncpy(char *dest, char *src, int n)
